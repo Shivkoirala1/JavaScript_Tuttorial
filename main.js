@@ -8,9 +8,9 @@
 // let ra const ko herum aba 
 // let score = 10;
 // if (score == 10){
-//     console.log("Your score is not sufficient");
-// }
-// console.log(score)
+//     console.log("Your score is not sufficient")
+// };
+// console.log(score);
 // const name = "shiv";
 // const name = "dipesh";
 
@@ -40,7 +40,7 @@
 // console.log(name.toUpperCase());
 // console.log(name.toLowerCase());
 // console.log(name.substring(0,4));
-// console.log(name.split(""))
+// console.log(name.split(""));
 // const nume = "Nishma, Shiv, Koirala, Raut, Nita, Homnath, Rajan, Karuna, Khushi, Nishkarsha"
 // console.log(nume.split(","));
 
@@ -55,7 +55,7 @@
 
 // fruits[3] = "SYau"
 // fruits.push("MYau");
-// fruits.unshift("Kaley") 
+// fruits.unshift("Kaley");
 // console.log(fruits);   
 // console.log(Array.isArray(fruits));
 // console.log(fruits.indexOf("Apple"));
@@ -78,7 +78,7 @@
 // // console.log(person.Address.City);
 // person.age = 19;
 // person.email = "koirala.khushi456@gmail.com";
-// console.log(person)
+// console.log(person);
 // const {firstName, lastName, Address : {City}} = person;
 // console.log(firstName);
 // console.log(lastName);
@@ -86,6 +86,7 @@
 
 
 // OBJECT LITERALS WITHIN THE ARRAY
+// We will be working with this Array for the loops concepts as well.
 const Todos = [
     {
         id : 1,
@@ -107,6 +108,42 @@ const Todos = [
         Work : "Submitting work",
         Status : false
     }
-]
+];
 
-console.log(Todos);
+// console.log(Todos);
+// console.log(Todos[0]);
+// console.log(Todos[1].Work);
+
+// Todos.push(
+//     {id:5, 
+//     Work : "To Reach Home Before 7 pm ",
+//     Status : false
+// })
+// console.log(Todos);
+
+
+
+// Lets Talk About Json = JavaScript Object Notation
+// Json is a data format and used a lot in full stack development and API the data sent and recieving to a server is basically done in JSON format 
+// Its very similar to object literals just difference is "" in all key and attributes
+
+// JSON.stringfy is the function that is used to conver into JSON string.
+// const TodoJson = JSON.stringify(Todos);
+// console.log(TodoJson);
+
+
+//LOOPS: 1) for loop 2) While loop 
+// for (let i = 0; i<10; i++) {
+//     console.log("The value of i using the For loop is " + i)
+//     };
+
+// let i = 0;
+// while(i<10){
+//     console.log("The value of i using the While loop is " + i)
+//     i++
+// }
+
+
+for (let i = 0; i <= Todos.length; i++) {
+    console.log(Todos[i])
+};
