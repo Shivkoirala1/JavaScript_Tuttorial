@@ -87,28 +87,28 @@
 
 // OBJECT LITERALS WITHIN THE ARRAY
 // We will be working with this Array for the loops concepts as well.
-const Todos = [
-    {
-        id : 1,
-        Work : "Make Highly Healthy Food",
-        Status : true
-    },
-    {
-        id : 2,
-        Work : "Meeting with Ajayraj Sir",
-        Status : true
-    },
-    {
-        id : 3,
-        Work : "Completing the PaperWorks",
-        Status : true
-    },
-    {
-        id : 4,
-        Work : "Submitting work",
-        Status : false
-    }
-];
+// const Todos = [
+//     {
+//         id : 1,
+//         Work : "Make Highly Healthy Food",
+//         Status : true
+//     },
+//     {
+//         id : 2,
+//         Work : "Meeting with Ajayraj Sir",
+//         Status : true
+//     },
+//     {
+//         id : 3,
+//         Work : "Completing the PaperWorks",
+//         Status : true
+//     },
+//     {
+//         id : 4,
+//         Work : "Submitting work",
+//         Status : false
+//     }
+// ];
 
 // console.log(Todos);
 // console.log(Todos[0]);
@@ -144,6 +144,74 @@ const Todos = [
 // }
 
 
-for (let i = 0; i <= Todos.length; i++) {
-    console.log(Todos[i])
-};
+// for (let i = 0; i < Todos.length; i++) {
+//     console.log(Todos[i].Work);
+// };
+
+// for (let todos of Todos){
+//     console.log(todos.Work)
+// }
+
+
+// lets see some High Ordered Array Methods: For Each, map, filter
+//  SOME FUNCTION BASED WORKS 
+// Todos.forEach(function(todo){
+//     console.log(todo.id)
+// }
+// );
+
+// Todos.forEach(function(todo){
+//     console.log(todo.Work)
+// });
+
+// const todo = Todos.map(function(todo){
+//     return todo.Status
+// });
+// console.log(todo)
+
+// const todoz = Todos.filter(function(todo){
+//     return todo.Status === true;
+// }).map(function(todo){
+//     return todo.Work
+// })
+// console.log(todoz)
+
+// for (let i = 0; i<=10; i++){ // star pattern
+//     console.log(" ".repeat(i)+ "*".repeat(i))
+// }
+
+// CONDITIONAL // should know difference between === and ==
+// const x = 1;
+// if (x<0){
+//     console.log("X is Negative number")
+// }else if(x>0){
+//     console.log('X is Positive Number')
+// }else{
+//     console.log("x is 0")
+// }
+
+// //  DOUBLE CONDITION IN 2 VARIABLES
+// const A = 1;
+// const B = -2;
+// if(A<1 && B < 1){
+//     console.log("BOTH A AND B ARE NEGATIVE")
+// }else if (A>0 && B>0){
+//     console.log("BOTH A AND B ARE Positive")
+// }else if (A>0 && B<0){
+//     console.log("A IS POSITIVE AND B IS NEGATIVE")
+// }else{
+//     console.log("A IS NEGATIVE AND B IS POSITIVE")
+// }
+
+// INTRODUCTION TO TERNARY OPERATOR
+// const age = 15;
+// const check = age>18 ? "You are allowed to voting" : "You are not eligible for Voting";
+
+// console.log (check);
+
+// SWITCH CASE
+const day = 1;
+switch {
+    case "1
+
+}
