@@ -210,8 +210,75 @@
 // console.log (check);
 
 // SWITCH CASE
-const day = 1;
-switch {
-    case "1
+// const day = 1;
+// switch (day){
+//     case 1:
+//         console.log("Today you have to go to the Job");
+//         break;
+//     case 2:
+//         console.log("Holiday");
+//         break;
+// }
 
-}
+//CREATING SIMPLE ADD FUNCTION WITHOUT RETURN STATEMENT
+// function ADD(NUM1,NUM2){
+//     console.log("The sum of the number are", NUM1 + NUM2);
+// } 
+// ADD(5,4);
+
+// CREATING FUNCTION WITH THE DEFAULT PARAMETER AND return Statement
+// function substract(num1 = 3, num2 = 2){
+//     return num1-num2;
+// }
+// console.log(substract())// output should be 1
+// Default Parameter is always overrided by the parameter passed while calling the function
+
+// ARROW FUNCTION ARROW FUNCTION INTRODUCED IN ES6 2015
+// Arrow functions cut down the complexity of the code which is seen in normal functions
+// lets see how it can be implemented\
+// const Add = (num1,num2) => {
+//     return num1+num2;
+// }
+//  console.log(Add(3,3))
+
+// const addition = num1 => num1+5;
+// console.log(addition(5))
+
+
+// LETS TALK ABOUT CONCEPTS OF OOP object oriented programming
+// In this section we will talk about constructor, instantating an object
+// function Person(firstName, lastName, dob){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+//     this.getFullBirth = function(){
+//         return this.dob.getFullYear();
+//     }
+// }
+
+// person1 = new Person ("Shiv", "Koirala", "2-2-2007");
+// person2 = new Person ("Nishma", "Raut", "5-8-2006");
+
+// console.log(person1);
+// console.log(person2.dob);
+// console.log(person2.getFullBirth());
+
+// Practicing the same logic once again to be confirmed
+
+// function Person(firstName, lastName, dob){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+//     this.getBirthyear = function(){
+//         return this.dob.getFullYear();
+//     }
+//     this.getFullName = function(){
+//         return`${this.firstName} ${this.lastName}`
+//     }
+// }
+// person1 = new Person("John", "Doe", "02-02-2007");
+// person2 = new Person("Khushi", "Koirala", "5-2-2001");
+// console.log(person1)
+// console.log(person2.dob)
+// console.log(person2.getBirthyear());
+// console.log(person2.getFullName());
