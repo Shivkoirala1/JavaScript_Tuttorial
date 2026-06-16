@@ -263,22 +263,50 @@
 // console.log(person2.dob);
 // console.log(person2.getFullBirth());
 
-// Practicing the same logic once again to be confirmed
+// Practicing the same logic once again to be confirmed with prototype
 
 // function Person(firstName, lastName, dob){
 //     this.firstName = firstName;
 //     this.lastName = lastName;
 //     this.dob = new Date(dob);
-//     this.getBirthyear = function(){
-//         return this.dob.getFullYear();
-//     }
-//     this.getFullName = function(){
-//         return`${this.firstName} ${this.lastName}`
-//     }
 // }
+// Person.prototype.getBirthyear= function(){
+//     return this.dob.getFullYear();
+// }
+// Person.prototype.getFullName = function(){
+//     return`${this.firstName} ${this.lastName}`
+// }
+
 // person1 = new Person("John", "Doe", "02-02-2007");
 // person2 = new Person("Khushi", "Koirala", "5-2-2001");
 // console.log(person1)
-// console.log(person2.dob)
-// console.log(person2.getBirthyear());
+// // console.log(person2.dob)
+// console.log(person1.getBirthyear());
 // console.log(person2.getFullName());
+
+
+// Implementing the concept of Class in OOP
+// class Person{
+//     constructor (firstName, lastName, dob){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+// }
+// getfullName(){
+//     return `${this.firstName} ${this.lastName}`;
+// }
+// getbirthYear(){
+//     return this.dob.getFullYear()
+// }
+// }
+
+// person1 = new Person("Ram", "Niroula", "4-4-2000");
+// person2 = new Person("Himkala", "Niroula", "2-2-2002");
+
+// console.log(person1);
+// console.log(person2.getbirthYear())
+// console.log(person1.getfullName())
+
+
+
+// WE WILL START THE FORM VALIDATING CONCEPT FROM HERE
