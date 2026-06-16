@@ -309,4 +309,49 @@
 
 
 
-// WE WILL START THE FORM VALIDATING CONCEPT FROM HERE
+// WE WILL START THE FORM VALIDATING CONCEPT (DOM- data object manipulation) FROM HERE
+// console.log(document.getElementById("my-form"));
+// const form = document.getElementById("my-form");
+// console.log(form);
+
+// console.log(document.querySelector(".msg")) // for class
+
+// Multiple class selector
+// console.log(document.querySelectorAll(".item")); // preffered one should always use this not others
+
+// console.log(document.getElementsByClassName("item"));
+// console.log(document.getElementsByTagName("li"));
+
+// const items = document.querySelectorAll(".item");
+
+// items.forEach((item) => 
+//     console.log(item));
+
+
+
+// const ul = document.querySelector(".items");
+// // console.log(ul);
+// // ul.remove();
+// ul.firstElementChild.textContent= "Apple";
+// ul.children[1].innerText= "Mango";
+// ul.lastElementChild.textContent = "Litchi";
+// ul.lastElementChild.innerHTML = "<h4>Litchi</h4>"
+
+// const btn = document.querySelector(".btn");
+// btn.style.background = "red"
+
+
+// Some small concepts of event listener and accessing the submit button and performing things on it 
+// const btn = document.querySelector(".btn");
+
+// btn.addEventListener("click", (e) => {
+    // e.preventDefault()
+    // console.log("Clicked")
+    // document.querySelector("#my-form").style.background = "#ccc"
+    // document.querySelector("body").classList.add(".bg-dark")
+    // btn.style.background = "green"
+    // alert("Form submitted sucessfully")
+// }
+// );
+
+
