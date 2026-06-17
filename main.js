@@ -354,4 +354,35 @@
 // }
 // );
 
+const myform = document.querySelector("#my-form");
+const name = document.querySelector("#name");
+const email = document.querySelector("#email");
+const msg = document.querySelector(".msg");
+const userlist = document.querySelector("#user");
 
+myform.addEventListener("submit", onSubmit);
+
+function onSubmit(e){
+    e.preventDefault();
+    if (name.value === "" || email.value === ""){
+        msg.classList.add('error');
+        msg.innerHTML = "Please Enter This Field to Continue";
+
+        
+    } else {
+        console.log(name.value);
+        console.log(email.value);
+    }
+}
+
+
+
+// function onSubmit(e){
+//     e.preventDefault();
+//     if (name.value === "" || email.value === ""){
+//         msg.innerHTML = "<h1>Please Enter This Field to Continue</h1>";
+//         // alert("Please enter the value on the fields before submitting")
+//     } else {
+//         console.log(name.value)};
+//         console.log(email.value);
+// } 
