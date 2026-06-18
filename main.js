@@ -1,5 +1,6 @@
 // console.log("Hello World");
 
+
 // console.error("This is the error");
 // console.warn("This is warning"); 
 
@@ -368,21 +369,19 @@ function onSubmit(e){
         msg.classList.add('error');
         msg.innerHTML = "Please Enter This Field to Continue";
 
-        
+        setTimeout(() => msg.remove(), 3000);
     } else {
-        console.log(name.value);
-        console.log(email.value);
+
+        // console.log(name.value);
+        // console.log(email.value);
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode
+            (`${name.value} : ${email.value}`));
+        
+        userlist.appendChild(li);
     }
+
+
 }
 
 
-
-// function onSubmit(e){
-//     e.preventDefault();
-//     if (name.value === "" || email.value === ""){
-//         msg.innerHTML = "<h1>Please Enter This Field to Continue</h1>";
-//         // alert("Please enter the value on the fields before submitting")
-//     } else {
-//         console.log(name.value)};
-//         console.log(email.value);
-// } 
