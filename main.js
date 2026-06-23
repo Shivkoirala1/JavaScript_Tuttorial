@@ -122,8 +122,6 @@
 // })
 // console.log(Todos);
 
-
-
 // Lets Talk About Json = JavaScript Object Notation
 // Json is a data format and used a lot in full stack development and API the data sent and recieving to a server is basically done in JSON format 
 // Its very similar to object literals just difference is "" in all key and attributes
@@ -383,5 +381,3 @@ function onSubmit(e){
 
 
 }
-
-
